@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" intial-scale="1">
+	<title>corona</title>
+	<link rel="stylesheet" type="text/css" href="corona.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="top-wrapper">
+			<div class="top">
+				<p>Covid-19 Tracker</p>
+				<div class="top-header-link">
+					<p>Share on</p>
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-twitter"></a>
+				</div>
+			</div>
+		</div>
+		<div class="main-wrapper">
+			<div class="header-wrapper">
+				<div class="header">
+					<div class="header-text" id="header-text">
+						<h1>Covid 19 Self Test</h1>
+						<p>Please answer the questions as honestly as possible and do share with your friends, so they can use the test too. Thank you.</p>
+						<button onclick="startTest()" id="start">take a test now</button>
+					</div>
+					<div class="header-link">
+						<p>Share on</p>
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-instagram"></a>
+						<a href="#" class="fa fa-twitter"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="question-wrapper" id="qwrap">
+				<div class="loader"id="loader"></div>
+			</div>
+		</div>
+		<footer>
+			<p>Copyright 2020, Web Quizer App Group</p>
+		</footer>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
