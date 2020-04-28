@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- :: Required Meta Tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       
+        <!-- :: Title -->
+        <title>Covid Tracker App</title>
+
+        <!-- :: Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+        
+      
+		<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+        
+    
+        <link rel="stylesheet" href="assets/fonts/flaticon/css/flaticon.css">
+
+        
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        
+        
+        <link rel="stylesheet" href="assets/css/style.css">
+
+       
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <script src="assets/js/app.js"></script>
+
+        <style>
+  
+
+        </style>
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body onload="getStats()">
+     
+        
+        
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="contact-top-bar">
+                            <a href="#">NCDC HOTLINES:</a>
+                            <a href="#"><i class="fas fa-envelope"></i> info@ncdc.gov.ng</a>
+                            <a href="#"><i class="fas fa-phone"></i> 07036708970 | 0800 9700 0010 | 08099555577(SMS) | 07087110839(WhatsApp)</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="social-media-top-bar">
+                            
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+        <nav class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="nav-brand">
+                            <a href="home.html" class="brand">Covid<span>Tracker</span></a>
+                            <button class="nav-bar-toggler"><i class="fas fa-bars"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 small-menu">
+                        <div class="nav-menu-links">
+                            <ul class="menu-links">
+                                <li class="item active">
+                                    <a href="#" class="item-link">Home</a>
+                                </li>
+                                
+                                <li class="item">
+                                    <a href="#" class="item-link">Find A Test Centre</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="item-link">Find An Isolation Centre</a>
+                                </li>
+
+                                <li class="item">
+                                    <a href="#" class="item-link">Report A Covid-19 Case</a>
+                                </li>
+                                
+                                
+                            </ul>
+                            <ul class="menu-links">
+                                <li class="item">
+                                    <a href="take-test.html" class="btn-2">Take Self Test</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+         <!-- hero two area start -->
+
+    <div class="covid-header-area">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-7">
+
+                    <div class="covid-content-area ">
+
+                        <h2>Worried you have the coronavirus?</h2>
+                        <div class="covid-title">
+                            <h2>We've got you covered</h2>
+                        </div>
+
+                        <p >This tool will help you assess your symptoms and determine if you should go for a coronavirus disease 2019 (COVID-19) test.</p>
+
+                        <a  class="btn btn-secondary btn-lg text-uppercase self-test" href="take-test.html">Take the test <i class="fa fa-long-arrow-alt-right"></i> </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="covid-content-right-side">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="sub-content">
+
+                            <div class="content">
+
+                                <h5 >Disclaimer</h5>
+                                <p>This tool is not intended for the diagnosis or treatment of disease or other conditions, including COVID-19</p>
+
+                                
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- <img src="assets/images/testimonials/01_testimonials.jpg" alt="dot-white-shape" class="dot-white-shape"> -->
+
+        </div>
+
+        <div class="covid-header-right-img"></div>
+
+    </div>
+
+
+        
+      
+        <section class="about py-100" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div style="margin-bottom: -2px;" class="sec-title text-center">
+                           
+                            <h3>Current <span>Covid-19 Case</span> <br> Update In Nigeria  <img src="assets/images/covid/nig-icon.png" alt=""></h3>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="case-update-div">
+                          
+                            <div class="icon-box pale-green"></div> <p>Samples Tested</p>
+                            
+                            <h2>3000+</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="case-update-div">
+                          
+                            <div class="icon-box purple"></div> <p>Confirmed Cases</p>
+                        
+                            <h2 id="confirmed">0</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="case-update-div">
+                            
+                                <div class="icon-box green"></div> <p> Discharged</p>
+                            
+                            <h2 id="discharged">0</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="case-update-div">
+                          
+                            <div class="icon-box red"></div> <p> Deaths</p>
+                            
+                            <h2 id='deaths'>0</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 offset-md-1">
+                      <div class="scroll-div">
+                          <input class="state-search-input" type="text" placeholder="search for state">
+                          <div>
+                              <div class="single-state-list">
+                                  <span class="state-name">Lagos</span><span class="state-cases">1000</span>
+                              </div>
+                              <div class="single-state-list">
+                                <span class="state-name">Lagos</span><span class="state-cases">1000</span>
+                            </div>
+                            <div class="single-state-list">
+                                <span class="state-name">Lagos</span><span class="state-cases">1000</span>
+                            </div>
+                            <div class="single-state-list">
+                                <span class="state-name">Lagos</span><span class="state-cases">1000</span>
+                            </div>
+                            <div class="single-state-list">
+                                <span class="state-name">Lagos</span><span class="state-cases">1000</span>
+                            </div>
+                            <div class="single-state-list">
+                                <span class="state-name">Lagos</span><span class="state-cases">1000</span>
+                            </div>
+                            <div>
+                                <span>Lagos</span><span>1000</span>
+                            </div>
+                          </div>
+                      </div>  
+                    </div>
+                    <div class="col-md-5 offset-md-1">
+                        <div class="specific-state">
+                            <div class="title">
+                                <p>Edo State</p>
+                            </div>
+                            <div class="statistics">
+                                <div class="sub"> <div class="icon-box purple"></div> <p> Confirmed Cases</p> <h4 id="cases">0</h4></div>
+                                <div class="sub"> <div class="icon-box pale-green"></div> <p> Active</p><h4 id="active">0</h4></div>
+                                <div class="sub"> <div class="icon-box green"></div> <p> Discharged</p><h4 id="relieved">0</h4></div>
+                                <div class="sub"> <div class="icon-box red"></div> <p> Deaths</p><h4 id="deaths1">0</h4></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="faq py-100-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="sec-title text-center">
+                          
+                            <h3>Frequently Asked Questions About Covid-19 </h3>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="row" id="covid-faq">
+                    <div class="col-md-6">
+                        <div class="faq-box">
+                            <h5 class="question-header" id="faq_01">
+                                <button class="click collapsed" type="button" data-toggle="collapse" data-target="#faqOne" aria-expanded="false" aria-controls="faqOne">
+                                    What is COVID-19?
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </h5>
+                            <div id="faqOne" class="answer collapse" aria-labelledby="faq_01" data-parent="#covid-faq">
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="faq-box">
+                            <h5 class="question-header" id="faq_02">
+                                <button class="click collapsed" type="button" data-toggle="collapse" data-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                                    Is COVID-19 airborne?
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </h5>
+                            <div id="faqTwo" class="answer collapse" aria-labelledby="faq_02" data-parent="#covid-faq">
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="faq-box">
+                            <h5 class="question-header" id="faq_03">
+                                <button class="click collapsed" type="button" data-toggle="collapse" data-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                                    What are the symptoms of COVID-19?
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </h5>
+                            <div id="faqThree" class="answer collapse" aria-labelledby="faq_03" data-parent="#covid-faq">
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="faq-box">
+                            <h5 class="question-header" id="faq_04">
+                                <button class="click collapsed" type="button" data-toggle="collapse" data-target="#faq-4" aria-expanded="false" aria-controls="faq-4">
+                                    What does social distancing mean?
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </h5>
+                            <div id="faq-4" class="answer collapse" aria-labelledby="faq_04" data-parent="#covid-faq">
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="faq-box">
+                            <h5 class="question-header" id="faq_05">
+                                <button class="click collapsed" type="button" data-toggle="collapse" data-target="#faq-5" aria-expanded="false" aria-controls="faq-5">
+                                    How long does the coronavirus last on surfaces?
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </h5>
+                            <div id="faq-5" class="answer collapse" aria-labelledby="faq_05" data-parent="#covid-faq">
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="faq-box">
+                            <h5 class="question-header" id="faq_06">
+                                <button class="click collapsed" type="button" data-toggle="collapse" data-target="#faq-6" aria-expanded="false" aria-controls="faq-6">
+                                    
+What precautions should I take while travelling during the coronavirus disease outbreak?
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </h5>
+                            <div id="faq-6" class="answer collapse" aria-labelledby="faq_06" data-parent="#covid-faq">
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+        
+       
+        
+        <!-- :: Blog -->
+        <section style="background: #F4F9FC;" class="blog py-100-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="sec-title text-center">
+                            <h2>Prevention Tips</h2>
+                            <h3>How Can I prevent The Spread Of Covid-19?</h3>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img-blog">
+                                <img class="img-fluid" src="assets/images/covid/re/hand-washing.jpeg" alt="01 Blog">
+                                
+                            </div>
+                            <div class="text-blog">
+                                <div class="tips-number"><p>1</p></div>
+                                <h3><strong>WASH</strong> hands Often</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img-blog">
+                                <img class="img-fluid" src="assets/images/covid/re/crowded-places-re.jpg" alt="02 Blog">
+                                
+                            </div>
+                            <div class="text-blog">
+                                <div class="tips-number"><p>2</p></div>
+                                <h3><strong>AVOID</strong> Crowded Places</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img-blog">
+                                <img class="img-fluid" src="assets/images/covid/re/cough.jpg" alt="02 Blog">
+                            
+                            </div>
+                            <div class="text-blog">
+                                <div class="tips-number"><p>3</p></div>
+                                <h3><strong>COVER</strong> your mouth when coughing</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="blog-item">
+                            <div class="img-blog">
+                                <img class="img-fluid" src="assets/images/covid/re/stay-home-re.jpg" alt="02 Blog">
+                               
+                            </div>
+                            <div class="text-blog">
+                                <div class="tips-number"><p>4</p></div>
+                                <h3><strong>STAY</strong> home as much as you can</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6">
+                        <div class="blog-item">
+                            <div class="img-blog">
+                                <img class="img-fluid" src="assets/images/covid/re/call-ncdc-re.jpg" alt="02 Blog">
+                             
+                            </div>
+                            <div class="text-blog">
+                                <div class="tips-number"><p>5</p></div>
+                                <h3><strong>SICK?</strong> Call NCDC toll lines </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+      
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="logo">
+                            <h2>Covid<span>Tracker</span></h2>
+                        </div>
+                        <p>This tool will help you assess your symptoms and determine if you're a candidate for a coronavirus disease 2019 (COVID-19) test. It also offers guidance on when to seek medical care and what to do in the meantime.</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 offset-md-1">
+                        <div class="footer-title">
+                            <h4>Contact NCDC</h4>
+                            <ul class="hotlines">
+                                <li><i class="fas fa-phone"></i> Toll Free Number: 0800 9700 0010</li>
+                                <li><i class="fab fa-whatsapp"></i> Whatsapp: +234 708 711 0839</li>
+                                <li><i class="fas fa-envelope"></i> SMS Number: +234 809 955 5577</li>
+                                <li><i class="fas fa-phone"></i> Call: +234 703 670 8970</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>More Link</h4>
+                        </div>
+                        <ul class="links">
+                            <li class="item active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Privacy policy</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Terms Of Use</a>
+                            </li>
+                            
+                            <li class="item">
+                                <a href="#">Find A Test Centre</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Find An Isolation Centre</a>
+                            </li>
+
+                            <li class="item">
+                                <a href="#">Report A Covid-19 Case</a>
+                            </li>
+
+                           
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="reserved">&#64; Covid Tracker 2020. All Rights Reserved.</div>
+            </div>
+        </footer>
+        
+        <!-- :: Scroll Up -->
+        <div class="scroll-up">
+            <a href="#page" class="move-section">
+                <i class="fas fa-angle-up"></i>
+            </a>
+        </div>
+        
+        <!-- :: JS -->
+        <!-- :: jQuery -->
+        <script src="assets/js/jquery-3.4.1.js"></script>
+
+        <!-- :: Bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        
+        <!-- :: Main -->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>

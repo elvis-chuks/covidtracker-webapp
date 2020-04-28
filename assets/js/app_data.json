@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "point": "1",
+            "question": "Do you have cough?"
+        },
+        {
+            "point": "1",
+            "question": "Do you have cold?"
+        },
+        {
+            "point": "1",
+            "question": "Are you having Diarrhea?"
+        },
+        {
+            "point": "1",
+            "question": "Do you have sore throat?"
+        },
+        {
+            "point": "1",
+            "question": "Are you experiencing Myalgia or body aches?"
+        },
+        {
+            "point": "1",
+            "question": "Do you have a headache?"
+        },
+        {
+            "point": "1",
+            "question": "Do you have fever (Temperature 37.8 C and above)?"
+        },
+        {
+            "point": "2",
+            "question": "Are you having difficulty breathing?"
+        },
+        {
+            "point": "2",
+            "question": "Are you experiencing fatigue?"
+        },
+        {
+            "point": "3",
+            "question": "Have you travelled recently during the past 14 days?"
+        },
+        {
+            "point": "3",
+            "question": "Do you have a travel history to a COVID-19 infected area?"
+        },
+        {
+            "point": "3",
+            "question": "Do you have direct contact or are you taking care of a COVID-19 PATIENT?"
+        }
+       
+    ],
+    "status": "success"
+}
